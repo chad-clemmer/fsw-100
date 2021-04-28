@@ -1,0 +1,29 @@
+#text-color {
+    color: darkgreen;
+}
+
+h1, h2 {
+    font-family: Georgia;
+    text-align: center;
+}
+
+div > p {
+    line-height: 25px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.capitalize {
+    text-transform: uppercase;
+}
+
+img {
+    float: left;
+    margin: 20px;
+}
