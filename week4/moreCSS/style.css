@@ -1,0 +1,98 @@
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+nav {
+    position: relative;
+    background-color: rgb(63, 63, 63, .5);
+    text-decoration: none;
+    list-style: none;
+    padding: 20px;
+    width: 100%;
+}
+
+.navLinkList li {
+    display: inline-block;
+}   
+
+.navLinkList li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.mainBody {
+    margin-top: 200px;
+    width: 100%;
+}
+
+.blogContainer {
+    position: relative;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blogPic {
+    position: relative;
+    display: inline-block;
+    width: 30%;
+}
+
+.blogPic img {
+    width: 100%;
+} 
+
+.blogPost {
+    position: relative;
+    display: inline-block;
+    width: 50%; 
+    margin-left: 10px;
+    vertical-align: top;
+}
+
+.blogPic2 {
+    position: relative;
+    display: inline-block;
+    width: 30%;
+}
+
+.blogPic2 img {
+    width: 100%;
+} 
+
+.blogPost2 {
+    position: relative;
+    display: inline-block;
+    width: 50%; 
+    margin-left: 10px;
+    vertical-align: top;
+}
+
+.blogBlock2 {
+    margin-top: 15px;
+}
+
+.blogPic3 {
+    position: relative;
+    display: inline-block;
+    width: 30%;
+}
+
+.blogPic3 img {
+    width: 100%;
+} 
+
+.blogPost3 {
+    position: relative;
+    display: inline-block;
+    width: 50%; 
+    margin-left: 10px;
+    vertical-align: top;
+}
+
+.blogBlock3 {
+    margin-top: 15px;
+}
