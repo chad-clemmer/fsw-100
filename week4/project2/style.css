@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    height: 100px;
+}
+
+.logo {
+    display: inline;
+    margin-left: 20px;
+}
+
+.logo img {
+    width: 200px;
+    margin-top: 20px;
+}
+nav {
+    display: inline;
+    position: relative;
+    text-align: right;
+    float: right;
+    margin-top: 10px;
+}
+
+.linkList {
+    text-decoration: none;
+    list-style: none;
+    padding: 0px;
+    position: relative;
+    display: inline;
+    margin-right: 20px;
+}
+
+.linkList li {
+    display: inline-block;
+}
+
+.linkList li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+.linkList li a:hover {
+    color: red;
+    font-size: 25px;
+}
+
+.mainBody {
+    margin-top: 200px;
+    width: 100%;  
+}
+
+.gamePhoto {
+    position: relative;
+    display: inline-block;
+    width: 20%;
+}
+
+.gamePhoto img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.gameQuote {
+    position: absolute;
+    top: -30px;
+    left: 1px;
+    font-size: 20px;
+    color: red;
+    font-family: 'Reggae One', cursive;
+}
+
+.newPost {
+    position: relative;
+    display: inline-block;
+    width: 60%;
+    vertical-align: top;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.newPost h1 {
+    margin-top: 0px;
+}
+
+table, th, td, tr {
+    border: 1px solid black
+}
+
+.seriesList {
+    position: relative;
+    display: inline-block;
+    width: 15%;
+    vertical-align: top;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 100px;
+    padding: 20px;
+}
